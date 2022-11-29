@@ -1,7 +1,7 @@
 import assert from 'assert';
 import {House} from "../houses"
 
-import Cyling from "../cyling"
+import Ceiling from "../ceiling"
 import Window from "../window"
 import Paint from "../paint"
 
@@ -21,7 +21,7 @@ describe('My function', function() {
 
     it("should return cheked if door is done ", () => {
         let eachHouse = new House();
-        let cyling = new Cyling(eachHouse);
+        let cyling = new Ceiling(eachHouse);
         
         let actual: string = cyling.check();
         let expected: string = "checked";

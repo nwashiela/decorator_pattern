@@ -1,6 +1,6 @@
 import HousesReports  from "./stategy_pattern";
 
-export default class Cyling implements HousesReports{
+export default class Ceiling implements HousesReports{
 
     constructor(private houseReport: HousesReports){
         
